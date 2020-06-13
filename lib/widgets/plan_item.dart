@@ -15,6 +15,7 @@ class PlanItem extends StatelessWidget {
         trailing: Checkbox(
             value: plan.isCompleted,
             onChanged: (_) {
+
               plan.toggleIsCompleted();
             },
           activeColor: Colors.black12,
