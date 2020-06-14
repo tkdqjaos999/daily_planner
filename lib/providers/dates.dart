@@ -10,6 +10,11 @@ class Dates with ChangeNotifier {
         date: DateTime.now(),
         plans: [
           Plan(title: '유데미 강의 245강', description: '유저 인증과 로그인'),
+          Plan(title: '유데미 강의 246강', description: '유저 인증과 로그인'),
+          Plan(title: '유데미 강의 247강', description: '유저 인증과 로그인'),
+          Plan(title: '유데미 강의 248강', description: '유저 인증과 로그인'),
+          Plan(title: '유데미 강의 249강', description: '유저 인증과 로그인'),
+
         ],
         todayMusic: '[슬기로운 의사생활 OST Part 6] 곽진언 - 시청 앞 지하철 역에서',
         todaySentence: '오늘은 더 힘차게!!!'),

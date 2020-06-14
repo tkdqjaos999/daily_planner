@@ -5,17 +5,17 @@ import '../providers/plan.dart';
 
 class PlanItem extends StatelessWidget {
 
+
   @override
   Widget build(BuildContext context) {
     final plan = Provider.of<Plan>(context);
     return Container(
-      color: plan.isCompleted ? Colors.grey.withOpacity(0.3) : Colors.grey,
+      color: plan.isCompleted ? Colors.grey.withOpacity(0.3) : Colors.white,
       child: ListTile(
         leading: Text(plan.category),
         trailing: Checkbox(
             value: plan.isCompleted,
             onChanged: (_) {
-
               plan.toggleIsCompleted();
             },
           activeColor: Colors.black12,

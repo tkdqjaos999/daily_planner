@@ -11,7 +11,7 @@ class Date {
   Date({
     @required this.date,
     @required this.plans,
-    @required this.todayMusic,
-    @required this.todaySentence,
+    this.todayMusic = '',
+    this.todaySentence = '',
   });
 }
